@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/dolphin.png">
+        <title>Document</title>
+
+        <!-- CUSTOM FONT FAMILIES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,100;1,700&display=swap" rel="stylesheet">
+
+
+
+
+        <!-- NORMALIZE CSS -->
+        <link rel="stylesheet" href="style/normalize.css">
+        <!-- CUSTOM CSS -->
+        <link rel="stylesheet" href="style/main.css">
+    </head>
+    <body>
+        <header>
+            <div class="top-bar-container">
+                <div class="top-bar">
+                    <div class="top-bar-left">
+                        <ul>
+                            <li>
+                                <div class="top-bar-title">
+                                    <span>HOY ES NOTICIA:</span>
+                                </div>
+                            </li>
+                           <li>
+                               <div class="top-bar-item">
+                                    <a href=""><span>Guerra en el PP</span></a>
+                                </div>
+                           </li>
+                            <li>
+                                <a href="">
+                                    <span>Blanqueo de capitales</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>Violencia en el fútbol</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-bar-right">
+                        <ul>
+                            <li>
+                                <a href="index.html">MALLORCA</a>
+                            </li>
+                            <li>
+                                <a href="https://www.menorca.info/">MENORCA</a>
+                            </li>
+                            <li>
+                                <a href="https://www.periodicodeibiza.es/">IBIZA Y FORMENTERA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="main-bar">
+                <div class="hamburger">
+                    <svg viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+                    </svg>  
+                </div>
+                <div class="main-bar-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153 25">
+                        <path d="M137.96 7.01c-2.93.13-3.88 1.95-3.88 1.95V7.21h-6.9v3.81h.81v9.39h-.92v3.92h8.14v-3.92h-1.13V15.1s-.43-2.22 2.27-2.22c.68 0 1.62.26 1.62.26l-.01-6.13zM91.63 1.17v4.02h1.52v15.06h-1.52v4.03h8.96v-3.92h-1.3V15.2h3.46v5.05h-1.3v4.03h9.28v-4.03h-1.62V5.09h1.62V1.17h-9.39v3.92h1.41v5.16h-3.46V5.09h1.3V1.17zm53.67 20.07c-1.02 0-.97-.88-.97-.88v-2.48s.11-1.08 1.02-1.08c.97 0 .97 1.08.97 1.08v2.48s.06.88-1.02.88m6.52-.83v-8.36s.49-5.62-6.82-5.62c-4.13 0-5.91 1.39-5.91 1.39v4.28s2.05-1.39 4.48-1.39c2.7 0 2.64 1.39 2.64 1.39v2.53s-1.24-1.08-3.1-1.08c-5.21 0-4.99 5.57-4.99 5.57s-.33 5.88 4.89 5.88c1.9 0 3.2-1.5 3.2-1.5v.83h6.63V20.4l-1.02.01zm-34.27-7.79s.06-1.6 1.19-1.6c1.19 0 1.24 1.6 1.24 1.6v6.65s-.06 1.24-1.19 1.24-1.24-1.24-1.24-1.24v-6.65zm1.21-5.83c-6.04 0-7.66 4.02-7.66 9.13 0 4.39 1.78 8.82 7.66 8.82 6.14 0 7.66-4.18 7.66-8.82 0-5-1.56-9.13-7.66-9.13M.36 1.02h9.77v3.94h-1.5v13.23s-.08 2.34 1.95 2.34c0 0 2.26.22 2.26-2.34.08 0 0-12.13 0-12.13s-.3-1.1-1.8-1.1V1.02h6.92v3.94s-1.58.15-1.58 1.02c.08 0 0 13.08 0 13.08s.45 5.19-5.71 5.77c0 0-8.57 1.24-8.5-6.72-.08 0 0-13.15 0-13.15H.37V1.02zM18.85.91v3.98h.75v15.52h-.97v3.92h8.14v-3.92h-1.08V.91zm9.06 2.99v3.3h-1.08v3.82h1.03v8.62s-.9 2.62 1.4 4.07c2.07 1.31 6.47-.16 6.47-.16v-3.77s-1.03.52-1.72-.16c-.26-.25-.22-.88-.22-.88V11h2.11V7.2h-2.11V2.4l-5.88 1.5zm8.95 3.31v3.81h.97v9.39h-.97v3.92H45v-3.92h-1.02V7.21zm0-3.87c0-1.62 1.62-2.94 3.61-2.94 1.99 0 3.61 1.32 3.61 2.94 0 1.62-1.62 2.94-3.61 2.94-1.99 0-3.61-1.32-3.61-2.94m9 3.87v3.82h.81v9.39h-.92v3.92h8.14v-3.92h-1.13v-8.36s-.06-1.08.92-1.08c1.02 0 1.02 1.08 1.02 1.08v12.27h7.23v-3.92H60.8v-8.36s.11-1.08 1.02-1.08c.97 0 1.02 1.08 1.02 1.08v12.27h6.9V20.4h-.92V10.35s-.06-3.97-4.37-3.97c-2.86 0-3.99 1.91-3.99 1.91s-1.19-1.96-3.51-1.96c-3.18 0-4.21 2.63-4.21 2.63V7.21h-6.88zm31.5 14.03c-1.02 0-.97-.88-.97-.88v-2.48s.11-1.08 1.02-1.08c.97 0 .97 1.08.97 1.08v2.48c.01 0 .06.88-1.02.88m6.52-.83v-8.36s.49-5.62-6.82-5.62c-4.13 0-5.91 1.39-5.91 1.39v4.28s2.05-1.39 4.48-1.39c2.7 0 2.64 1.39 2.64 1.39v2.53s-1.24-1.08-3.1-1.08c-5.21 0-4.99 5.57-4.99 5.57S69.86 25 75.08 25c1.9 0 3.19-1.49 3.19-1.49v.83h6.63v-3.92l-1.02-.01z"></path>
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <div class="signin">
+                        <a href="">
+                                <p>Iniciar sesión</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.05 6.6L5.99 5.54c3.57-3.46 9.27-3.37 12.73.19s3.37 9.27-.19 12.73-9.27 3.37-12.73-.19c-.1-.1-.2-.21-.3-.32l1.06-1.06c2.7 3.14 7.43 3.51 10.58.81s3.51-7.43.81-10.58-7.43-3.51-10.58-.81c-.11.09-.22.19-.32.29z"></path><path d="M5.86 12.29H0v-1.5h5.86M12.5 18c1.01 0 1.99-.26 2.86-.77.86-.47 1.6-1.15 2.14-1.97-.01-.52-.33-.99-.94-1.42-.53-.37-1.21-.66-2.04-.9-.75-.2-1.42-.31-2.03-.31s-1.28.1-2.03.31c-.83.23-1.5.53-2.02.9-.61.43-.93.91-.94 1.42.54.82 1.28 1.5 2.14 1.97.91.51 1.86.77 2.86.77zm0-11c-.44 0-.85.11-1.24.35A2.563 2.563 0 0010 9.54c0 .45.11.87.34 1.26.23.39.53.71.92.94a2.4 2.4 0 002.48 0c.39-.23.69-.54.92-.94.23-.39.34-.81.34-1.26 0-.45-.11-.87-.34-1.26-.22-.39-.54-.71-.92-.93A2.4 2.4 0 0012.5 7z"></path><path d="M3.68 8.61v5.87h-1.5V8.61"></path></svg>
+                        </a>
+                    </div>
+                    <div class="signup">
+                        <a href="https://www.ultimahora.es/#">Regístrate</a>
+                    </div>
+                </div>
+            </div> 
+            <nav class="menu">
+                <ul>
+                    <li class="home-svg">
+                        <a href="index.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4l8 7.77-1.5 1.46-6.5-6.3-6.49 6.3L4 11.77 12 4zM6.29 19v-4.98L12 8.61l5.71 5.4V19h-4.08v-4.53h-3.26V19H6.29z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </li>
+                    <li><a href="https://www.ultimahora.es/noticias.html">NOTICIAS</a></li>
+                    <li><a href="https://www.ultimahora.es/sucesos.html">SUCESOS</a></li>
+                    <li><a href="https://www.ultimahora.es/deportes.html">DEPORTES</a></li>
+                    <li><a href="https://www.ultimahora.es/opinion.html">OPINIÓN</a></li>
+                    <li><a href="https://www.ultimahora.es/xaloc.html">XALOC</a></li>
+                    <li><a href="https://www.ultimahora.es/participa.html">PARTICIPA</a></li>
+                    <li><a href="https://www.ultimahora.es/ocio.html">OCIO</a></li>
+                    <li><a href="https://www.ultimahora.es/vips.html">VIPS</a></li>
+                    <li><a href="https://www.ultimahora.es/guia_util.html">GUÍA ÚTIL</a></li>
+                    <li><a href="https://www.ultimahora.es/monograficos.html">MONOGRÁFICOS</a></li>
+                    <li class="search-svg"><a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><path d="M195.55 173.79l-41.22-41.22c9.94-14.34 14.9-30.32 14.9-47.95 0-11.47-2.22-22.42-6.67-32.88-4.45-10.45-10.46-19.47-18.03-27.04s-16.58-13.59-27.04-18.03C107.03 2.22 96.08 0 84.62 0 73.16 0 62.2 2.22 51.74 6.67 41.28 11.11 32.27 17.13 24.7 24.7c-7.58 7.57-13.58 16.59-18.03 27.04C2.22 62.2 0 73.15 0 84.62c0 11.46 2.22 22.42 6.67 32.88 4.45 10.45 10.46 19.47 18.03 27.04 7.57 7.56 16.59 13.58 27.04 18.03 10.46 4.44 21.42 6.67 32.87 6.67 17.63 0 33.62-4.98 47.96-14.91l41.22 41.1c2.89 3.05 6.49 4.58 10.82 4.58 4.25 0 7.87-1.51 10.87-4.51 3.01-3 4.51-6.63 4.51-10.88s-1.47-7.86-4.44-10.83zm-72.89-51.13c-10.54 10.53-23.22 15.8-38.04 15.8s-27.5-5.26-38.04-15.8c-10.54-10.54-15.81-23.22-15.81-38.04s5.27-27.51 15.81-38.04c10.54-10.53 23.21-15.81 38.04-15.81s27.5 5.28 38.04 15.81c10.54 10.53 15.81 23.22 15.81 38.04s-5.28 27.5-15.81 38.04z"></path></svg></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="top-ad">
+                <a href="https://covid.ibsalut.es/autogestio-de-casos-i-contactes-covid-19"><img src="img/uh-ad.png" alt=""></a>
+            </div>
+
+            <div class="single-column">
+                <div class="slider">
+                    <div class="news">
+                        <div class="news-image">
+                            <a href="https://www.ultimahora.es/deportes/futbol/2022/02/18/1701343/violencia-futbol-balear-futbol-este-fin-semana.html"><img src="https://uh.gsstatic.es/sfAttachPlugin/getCachedCropContent/id/1106999" alt=""></a>
+                        </div>
+                        <div class="news-headline">
+                            <a href=""><p>VIOLENCIA EN EL FUTBOL BALEAR</p></a>
+                        </div>
+                        <div class="news-title">
+                            <a href="">
+                                <h3>
+                                    Sin fútbol este fin de semana
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="news-description">
+                            <a href="">
+                                <p>
+                                    La Federación Balear de Fútbol ha decidido aplazar la jornada en solidaridad y muestra de apoyo a los colegiados, que han denunciado la espiral ascendente de violencia verbal y física vivida en los campos de las Islas durante las últimas semanas.
+                                </p> 
+                            </a>
+                        </div>
+                        <div class="news-author">
+                            <a href="">Fernando Fernández</a>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="desktop-four-columns mobile-four-rows">
+                <div class="column">
+                    <div class="news">
+                        <div class="news-image">
+                            <a href="https://www.ultimahora.es/deportes/futbol/2022/02/17/1700759/violencia-futbol-balear-actas-verguenza.html">
+                                <img src="https://uh.gsstatic.es/sfAttachPlugin/getPreview/id/1926427" alt="">
+                            </a>
+                        </div>
+
+                        <div class="news-title">
+                            <a href=""><h3>Las actas de la vergüenza</h3></a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="column">
+                    <div class="news">
+                        <div class="news-image">
+                            <a href="https://www.ultimahora.es/deportes/futbol/2022/02/16/1700653/violencia-futbol-balear-testimonio-arbitro-agredido.html"><img src="https://uh.gsstatic.es/sfAttachPlugin/getPreview/id/1926279" alt=""></a>
+                        </div>
+
+                        <div class="news-title">
+                            <a href=""><h3>Un tímpano perforado, la dura secuela para un árbitro de 21 años</h3></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="opinion">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href="https://www.ultimahora.es/autor/tolo-jaume.html"><img src="https://uh.gsstatic.es/autor/tolo-jaume/648.png" alt=""></a>
+                            </div>
+                            <div class="news-description">
+                                <p>La opinión de</p>
+                            </div>
+                            <div class="news-author">
+                                <a href="">Tolo Jaume</a>
+                            </div>
+                            <div class="news-hr">
+                                <hr>
+                            </div>
+                            <div class="news-category">
+                                <a href="https://www.ultimahora.es/deportes/futbol/2022/02/18/1701383/violencia-futbol-baleares-punto-inflexion.html"><p>Punto de inflexión</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="column">
+                    <div class="news">
+                        <div class="news-image">
+                            <a href="https://www.ultimahora.es/deportes/futbol/2022/02/18/1701297/govern-inicia-dos-expedientes-sancionadores-por-venta-alcohol-recintos-deportivos.html"><img src="https://uh.gsstatic.es/sfAttachPlugin/getPreview/id/1927671" alt=""></a>
+                        </div>
+                        <div class="news-title">
+                            <a href=""><h3>El Govern inicia dos expedientes sancionadores por venta de alcohol en recintos deportivos</h3></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="desktop-two-columns mobile-two-rows">
+                <div class="main-col">
+                    <div class="single-column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href="https://www.ultimahora.es/noticias/nacional/2022/02/18/1701315/ayuso-casado-mordida-hace-tambalear-pp-2.html"><img src="https://uh.gsstatic.es/sfAttachPlugin/getCachedContent/id/1927685/width/750/height/450/crop/1" alt=""></a>
+                            </div>
+
+                            <div class="news-category">
+                                <a href="">NACIONAL</a>
+                            </div>
+
+                            <div class="news-title">
+                                <a href="https://www.ultimahora.es/noticias/nacional/2022/02/18/1701315/ayuso-casado-mordida-hace-tambalear-pp-2.html">
+                                    <h3>Ayuso vs Casado: la 'mordida' que hace tambalear al PP</h3>
+                                </a>
+                            </div>
+
+                            <div class="news-description">
+                                <a href="">
+                                    <p>El líder del PP responde «muy decepcionado» a la presidenta madrileña y le sigue pidiendo más información para conocer si en el asunto de las comisiones de su hermano hay «una falta de ejemplaridad» o «tráfico de influencias»</p>    
+                                </a>
+                                
+                            </div>
+
+                            <div class="news-author">
+                                <a href="">Ana Largo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="desktop-four-columns mobile-four-rows">
+                        <div class="column">
+                            <div class="news">
+
+                                <div class="news-image">
+                                    <a href="https://www.ultimahora.es/noticias/local/2022/02/18/1701283/ayuso-casado-balear-vive-perplejo-guerra-interna-partido.html">
+                                        <img src="https://uh.gsstatic.es/sfAttachPlugin/getPreview/id/1927641" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="news-description">
+                                    <a href="">
+                                        <p>El PP balear vive «perplejo» la guerra interna de su partido</p>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="column">
+                            <div class="news">
+                                <div class="news-image">
+                                    <a href="https://www.ultimahora.es/noticias/nacional/2022/02/18/1701415/ayuso-casado-ismael-sirio-lopez-director-comunicacion-digital-del-pp.html">
+                                        <img src="https://uh.gsstatic.es/sfAttachPlugin/getPreview/id/1928019" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="news-description">
+                                    <a href="https://www.ultimahora.es/noticias/nacional/2022/02/18/1701415/ayuso-casado-ismael-sirio-lopez-director-comunicacion-digital-del-pp.html">
+                                        <p>Dimite el encargado de comunicación digital del Partido Popular</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="news">
+                                <div class="news-image">
+                                    <a href="">
+                                        <img src="https://uh.gsstatic.es/sfAttachPlugin/getPreview/id/1928005" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="news-description">
+                                    <a href="">
+                                        <p>Sánchez pide aclarar cualquier duda sobre corrupción en el PP</p>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="column">
+                            <div class="news">
+                                <div class="news-image">
+                                    <a href="https://www.ultimahora.es/noticias/nacional/2022/02/18/1701413/ayuso-casado-habla-julio-gutiez-detective-rechazo-investigacion.html">
+                                        <img src="https://uh.gsstatic.es/sfAttachPlugin/getPreview/id/1928017" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="news-description">
+                                    <a href="https://www.ultimahora.es/noticias/nacional/2022/02/18/1701413/ayuso-casado-habla-julio-gutiez-detective-rechazo-investigacion.html">
+                                        <p>El detective al que le pidieron investigar a Ayuso: «Lo rechacé porque era ilegal»</p>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="desktop-two-columns mobile-two-rows">
+                        <div class="column">
+                            <div class="news red-background">
+                                <div class="news-image">
+                                    <a href="https://www.ultimahora.es/noticias/local/2022/02/18/1701089/ciberataque-salut-afectado-30000-expedientes-personales-baleares.html">
+                                        <img src="https://uh.gsstatic.es/sfAttachPlugin/getCachedContent/id/1927209/width/350/height/200/crop/1" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="news-category">
+                                    <a href="https://www.ultimahora.es/noticias/local.html" class="category">LOCAL</a>
+                                </div>
+
+                                <div class="news-title">
+                                    <a href="https://www.ultimahora.es/noticias/local/2022/02/18/1701089/ciberataque-salut-afectado-30000-expedientes-personales-baleares.html">
+                                        <h3>El ciberataque al IB-Salut ha afectado a 30.000 expedientes personales de Baleares</h3>
+                                    </a>
+                                </div>
+                                
+                                <div class="news-author">
+                                    <a href="" class="author">Sabrina Vidal</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="news">
+                                <div class="news-image">
+                                    <a href="https://www.ultimahora.es/noticias/local/2022/02/18/1701403/coronavirus-baleares-datos-del-18febrero.html">
+                                        <img src="https://uh.gsstatic.es/sfAttachPlugin/getCachedContent/id/1927995/width/350/height/200/crop/1" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="news-category">
+                                    <a href="https://www.ultimahora.es/noticias/local.html">PANDEMIA DE CORONAVIRUS</a>
+                                </div>
+
+                                <div class="news-title">
+                                    <a href="https://www.ultimahora.es/noticias/local/2022/02/18/1701089/ciberataque-salut-afectado-30000-expedientes-personales-baleares.html">
+                                        <h3>La ocupación de las UCI de Baleares baja a riesgo medio</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aside">
+                    <a href="">
+                        <img src="img/drones.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="desktop-two-columns mobile-two-rows">
+                <div class="aside">
+                    <a href="">
+                        <img src="img/kia.jfif" alt="">
+                    </a>
+                </div>
+                <div class="column">
+                    <div class="desktop-three-columns mobile-three-rows">
+                        <div class="column">      
+                            <div class="news">
+                                <div class="news-image">
+                                    <a href="https://www.ultimahora.es/noticias/local/2022/02/18/1701283/ayuso-casado-balear-vive-perplejo-guerra-interna-partido.html">
+                                        <img src="https://uh.gsstatic.es/sfAttachPlugin/getPreview/id/1928017" alt="">
+                                    </a>
+                                </div>
+                                <div class="news-text">
+                                    <div class="news-description">
+                                        <a href="">
+                                            <p>El detective al que le pidieron investigar a Ayuso: «Lo rechacé porque era ilegal»</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="news aqua-background">
+                                <div class="news-image">
+                                    <a href="https://www.ultimahora.es/noticias/nacional/2022/02/18/1701415/ayuso-casado-ismael-sirio-lopez-director-comunicacion-digital-del-pp.html">
+                                        <img src="https://uh.gsstatic.es/sfAttachPlugin/getPreview/id/1827899" alt="" class="branded-img">
+                                    </a>
+                                </div>
+                                <div class="news-text">
+                                    <div class="news-category">
+                                        <a href=""">BRANDED CONTENT</a>
+                                    </div>
+    
+                                    <div class="news-description">
+                                        <a href="https://www.ultimahora.es/noticias/nacional/2022/02/18/1701415/ayuso-casado-ismael-sirio-lopez-director-comunicacion-digital-del-pp.html">
+                                            <p>Hacer frente a la pérdida auditiva es posible con los dispositivos inteligentes Alya disponibles en Baleares, en exclusiva, en Audiogram</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="news">
+                                <div class="news-image">
+                                    <a href="">
+                                        <img src="https://uh.gsstatic.es/sfAttachPlugin/getPreview/id/1928019" alt="">
+                                    </a>
+                                </div>
+                                <div class="news-text">
+                                    <div class="news-description">
+                                        <a href="">
+                                            <p>Dimite el encargado de comunicación digital del Partido Popular</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="desktop-two-columns mobile-two-rows">
+                        <div class="column news red-background">
+                            <div class="news">
+                                <div class="news-image">
+                                    <a href="https://www.ultimahora.es/noticias/local/2022/02/18/1701089/ciberataque-salut-afectado-30000-expedientes-personales-baleares.html">
+                                        <img src="https://uh.gsstatic.es/sfAttachPlugin/getCachedContent/id/1928045/width/350/height/200/crop/1" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="news-category">
+                                    <a href="https://www.ultimahora.es/noticias/local.html">LOCAL</a>
+                                </div>
+
+                                <div class="news-description">
+                                    <a href="https://www.ultimahora.es/noticias/local/2022/02/18/1701089/ciberataque-salut-afectado-30000-expedientes-personales-baleares.html">
+                                        <p>Los hoteleros de Mallorca y la Agrupación de Cadenas se posicionan contra la moratoria turística del Govern</p>
+                                    </a>
+                                </div>
+
+                                <div class="news-author">
+                                    <a href="" class="author">Juan Luis Ruiz Collado</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="news">
+                                <div class="news-image">
+                                    <a href="https://www.ultimahora.es/noticias/local/2022/02/18/1701403/coronavirus-baleares-datos-del-18febrero.html">
+                                        <img src="https://uh.gsstatic.es/sfAttachPlugin/getCachedContent/id/1927703/width/350/height/200/crop/1" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="news-category">
+                                    <a href="https://www.ultimahora.es/noticias/local.html">LOCAL</a>
+                                </div>
+
+                                <div class="news-description">
+                                    <a href="https://www.ultimahora.es/noticias/local/2022/02/18/1701089/ciberataque-salut-afectado-30000-expedientes-personales-baleares.html">
+                                        <p>Baleares reduce la brecha salarial pero las mujeres aún cobran 3.300 euros menos al año</p>
+                                    </a>
+                                </div>
+
+                                <div class="news-author">
+                                    <a href="" class="author">Enrique Fueris</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
